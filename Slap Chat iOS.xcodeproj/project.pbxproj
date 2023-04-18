@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFBCA47F44F144EDC1556506 /* Pods_Slap_Chat_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AF27444F59662A9208B7C9 /* Pods_Slap_Chat_iOS.framework */; };
+		E57E80EC29EE01CF00602FCC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E57E80EB29EE01CF00602FCC /* FirebaseAuth */; };
+		E57E80EE29EE01CF00602FCC /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E57E80ED29EE01CF00602FCC /* FirebaseDatabase */; };
+		E57E80F029EE01CF00602FCC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E57E80EF29EE01CF00602FCC /* FirebaseFirestore */; };
+		E57E80F229EE0E4D00602FCC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E57E80F129EE0E4D00602FCC /* GoogleService-Info.plist */; };
+		E57E80F529EE1EC900602FCC /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E57E80F429EE1EC900602FCC /* IQKeyboardManagerSwift */; };
 		E5A81CAF29E9C9F1005CFC6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A81CAE29E9C9F1005CFC6D /* AppDelegate.swift */; };
 		E5A81CB129E9C9F1005CFC6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A81CB029E9C9F1005CFC6D /* SceneDelegate.swift */; };
-		E5A81CB329E9C9F1005CFC6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A81CB229E9C9F1005CFC6D /* ViewController.swift */; };
 		E5A81CB629E9C9F1005CFC6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A81CB429E9C9F1005CFC6D /* Main.storyboard */; };
 		E5A81CB829E9C9F2005CFC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A81CB729E9C9F2005CFC6D /* Assets.xcassets */; };
 		E5A81CBB29E9C9F2005CFC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A81CB929E9C9F2005CFC6D /* LaunchScreen.storyboard */; };
+		E5A81CCC29E9CB74005CFC6D /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A81CCA29E9CB74005CFC6D /* MessageCell.swift */; };
+		E5A81CCD29E9CB74005CFC6D /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A81CCB29E9CB74005CFC6D /* MessageCell.xib */; };
+		E5A81CCF29E9CBD6005CFC6D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A81CCE29E9CBD6005CFC6D /* WelcomeViewController.swift */; };
+		E5A81CD129E9CCA6005CFC6D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A81CD029E9CCA6005CFC6D /* LoginViewController.swift */; };
+		E5A81CD329E9CDA6005CFC6D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A81CD229E9CDA6005CFC6D /* RegisterViewController.swift */; };
+		E5A81CD529E9CDB7005CFC6D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A81CD429E9CDB7005CFC6D /* ChatViewController.swift */; };
+		E5A81CD729E9CDCF005CFC6D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A81CD629E9CDCF005CFC6D /* Message.swift */; };
+		E5A81CD929E9CE33005CFC6D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A81CD829E9CE33005CFC6D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E5A81CAB29E9C9F1005CFC6D /* Slap_Chat_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slap_Chat_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AF27444F59662A9208B7C9 /* Pods_Slap_Chat_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slap_Chat_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69513DF3501907756442D897 /* Pods-Slap_Chat_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slap_Chat_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Slap_Chat_iOS/Pods-Slap_Chat_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CB42F14F41C276877D22709C /* Pods-Slap_Chat_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slap_Chat_iOS.release.xcconfig"; path = "Target Support Files/Pods-Slap_Chat_iOS/Pods-Slap_Chat_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E57E80F129EE0E4D00602FCC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5A81CAB29E9C9F1005CFC6D /* Slap Chat iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slap Chat iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A81CAE29E9C9F1005CFC6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5A81CB029E9C9F1005CFC6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E5A81CB229E9C9F1005CFC6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5A81CB529E9C9F1005CFC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5A81CB729E9C9F2005CFC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5A81CBA29E9C9F2005CFC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5A81CBC29E9C9F2005CFC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A81CCA29E9CB74005CFC6D /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		E5A81CCB29E9CB74005CFC6D /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		E5A81CCE29E9CBD6005CFC6D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E5A81CD029E9CCA6005CFC6D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E5A81CD229E9CDA6005CFC6D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E5A81CD429E9CDB7005CFC6D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E5A81CD629E9CDCF005CFC6D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E5A81CD829E9CE33005CFC6D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,49 +55,106 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E57E80F529EE1EC900602FCC /* IQKeyboardManagerSwift in Frameworks */,
+				E57E80EE29EE01CF00602FCC /* FirebaseDatabase in Frameworks */,
+				E57E80F029EE01CF00602FCC /* FirebaseFirestore in Frameworks */,
+				CFBCA47F44F144EDC1556506 /* Pods_Slap_Chat_iOS.framework in Frameworks */,
+				E57E80EC29EE01CF00602FCC /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25D1326603370548DE0F0DBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69513DF3501907756442D897 /* Pods-Slap_Chat_iOS.debug.xcconfig */,
+				CB42F14F41C276877D22709C /* Pods-Slap_Chat_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5FC579853F77F88D68B09E0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38AF27444F59662A9208B7C9 /* Pods_Slap_Chat_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E5A81CA229E9C9F1005CFC6D = {
 			isa = PBXGroup;
 			children = (
-				E5A81CAD29E9C9F1005CFC6D /* Slap_Chat_iOS */,
+				E5A81CAD29E9C9F1005CFC6D /* Slap Chat iOS */,
 				E5A81CAC29E9C9F1005CFC6D /* Products */,
+				25D1326603370548DE0F0DBE /* Pods */,
+				5FC579853F77F88D68B09E0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		E5A81CAC29E9C9F1005CFC6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5A81CAB29E9C9F1005CFC6D /* Slap_Chat_iOS.app */,
+				E5A81CAB29E9C9F1005CFC6D /* Slap Chat iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E5A81CAD29E9C9F1005CFC6D /* Slap_Chat_iOS */ = {
+		E5A81CAD29E9C9F1005CFC6D /* Slap Chat iOS */ = {
 			isa = PBXGroup;
 			children = (
 				E5A81CAE29E9C9F1005CFC6D /* AppDelegate.swift */,
 				E5A81CB029E9C9F1005CFC6D /* SceneDelegate.swift */,
-				E5A81CB229E9C9F1005CFC6D /* ViewController.swift */,
-				E5A81CB429E9C9F1005CFC6D /* Main.storyboard */,
+				E5A81CC529E9CAD9005CFC6D /* Models */,
+				E5A81CC329E9CAC4005CFC6D /* Views */,
+				E5A81CC229E9CAA4005CFC6D /* Controllers */,
 				E5A81CB729E9C9F2005CFC6D /* Assets.xcassets */,
+				E57E80F129EE0E4D00602FCC /* GoogleService-Info.plist */,
 				E5A81CB929E9C9F2005CFC6D /* LaunchScreen.storyboard */,
 				E5A81CBC29E9C9F2005CFC6D /* Info.plist */,
+				E5A81CD829E9CE33005CFC6D /* Constants.swift */,
 			);
-			path = Slap_Chat_iOS;
+			path = "Slap Chat iOS";
+			sourceTree = "<group>";
+		};
+		E5A81CC229E9CAA4005CFC6D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5A81CCE29E9CBD6005CFC6D /* WelcomeViewController.swift */,
+				E5A81CD029E9CCA6005CFC6D /* LoginViewController.swift */,
+				E5A81CD229E9CDA6005CFC6D /* RegisterViewController.swift */,
+				E5A81CD429E9CDB7005CFC6D /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E5A81CC329E9CAC4005CFC6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5A81CB429E9C9F1005CFC6D /* Main.storyboard */,
+				E5A81CCA29E9CB74005CFC6D /* MessageCell.swift */,
+				E5A81CCB29E9CB74005CFC6D /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5A81CC529E9CAD9005CFC6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5A81CD629E9CDCF005CFC6D /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5A81CAA29E9C9F1005CFC6D /* Slap_Chat_iOS */ = {
+		E5A81CAA29E9C9F1005CFC6D /* Slap Chat iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5A81CBF29E9C9F2005CFC6D /* Build configuration list for PBXNativeTarget "Slap_Chat_iOS" */;
+			buildConfigurationList = E5A81CBF29E9C9F2005CFC6D /* Build configuration list for PBXNativeTarget "Slap Chat iOS" */;
 			buildPhases = (
+				E1576D8CA55E75075E2AA3FE /* [CP] Check Pods Manifest.lock */,
 				E5A81CA729E9C9F1005CFC6D /* Sources */,
 				E5A81CA829E9C9F1005CFC6D /* Frameworks */,
 				E5A81CA929E9C9F1005CFC6D /* Resources */,
@@ -82,9 +163,15 @@
 			);
 			dependencies = (
 			);
-			name = Slap_Chat_iOS;
+			name = "Slap Chat iOS";
+			packageProductDependencies = (
+				E57E80EB29EE01CF00602FCC /* FirebaseAuth */,
+				E57E80ED29EE01CF00602FCC /* FirebaseDatabase */,
+				E57E80EF29EE01CF00602FCC /* FirebaseFirestore */,
+				E57E80F429EE1EC900602FCC /* IQKeyboardManagerSwift */,
+			);
 			productName = Slap_Chat_iOS;
-			productReference = E5A81CAB29E9C9F1005CFC6D /* Slap_Chat_iOS.app */;
+			productReference = E5A81CAB29E9C9F1005CFC6D /* Slap Chat iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E5A81CA629E9C9F1005CFC6D /* Build configuration list for PBXProject "Slap_Chat_iOS" */;
+			buildConfigurationList = E5A81CA629E9C9F1005CFC6D /* Build configuration list for PBXProject "Slap Chat iOS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +198,15 @@
 				Base,
 			);
 			mainGroup = E5A81CA229E9C9F1005CFC6D;
+			packageReferences = (
+				E57E80EA29EE01CF00602FCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E57E80F329EE1EC900602FCC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = E5A81CAC29E9C9F1005CFC6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5A81CAA29E9C9F1005CFC6D /* Slap_Chat_iOS */,
+				E5A81CAA29E9C9F1005CFC6D /* Slap Chat iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +217,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5A81CBB29E9C9F2005CFC6D /* LaunchScreen.storyboard in Resources */,
+				E5A81CCD29E9CB74005CFC6D /* MessageCell.xib in Resources */,
+				E57E80F229EE0E4D00602FCC /* GoogleService-Info.plist in Resources */,
 				E5A81CB829E9C9F2005CFC6D /* Assets.xcassets in Resources */,
 				E5A81CB629E9C9F1005CFC6D /* Main.storyboard in Resources */,
 			);
@@ -133,12 +226,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E1576D8CA55E75075E2AA3FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Slap_Chat_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5A81CA729E9C9F1005CFC6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A81CB329E9C9F1005CFC6D /* ViewController.swift in Sources */,
+				E5A81CD129E9CCA6005CFC6D /* LoginViewController.swift in Sources */,
+				E5A81CD529E9CDB7005CFC6D /* ChatViewController.swift in Sources */,
+				E5A81CD729E9CDCF005CFC6D /* Message.swift in Sources */,
+				E5A81CD329E9CDA6005CFC6D /* RegisterViewController.swift in Sources */,
+				E5A81CD929E9CE33005CFC6D /* Constants.swift in Sources */,
+				E5A81CCF29E9CBD6005CFC6D /* WelcomeViewController.swift in Sources */,
+				E5A81CCC29E9CB74005CFC6D /* MessageCell.swift in Sources */,
 				E5A81CAF29E9C9F1005CFC6D /* AppDelegate.swift in Sources */,
 				E5A81CB129E9C9F1005CFC6D /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +406,7 @@
 		};
 		E5A81CC029E9C9F2005CFC6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69513DF3501907756442D897 /* Pods-Slap_Chat_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,7 +414,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4SZX5NQQ6B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Slap_Chat_iOS/Info.plist;
+				INFOPLIST_FILE = "Slap Chat iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,6 +435,7 @@
 		};
 		E5A81CC129E9C9F2005CFC6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB42F14F41C276877D22709C /* Pods-Slap_Chat_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,7 +443,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4SZX5NQQ6B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Slap_Chat_iOS/Info.plist;
+				INFOPLIST_FILE = "Slap Chat iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -339,7 +465,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5A81CA629E9C9F1005CFC6D /* Build configuration list for PBXProject "Slap_Chat_iOS" */ = {
+		E5A81CA629E9C9F1005CFC6D /* Build configuration list for PBXProject "Slap Chat iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5A81CBD29E9C9F2005CFC6D /* Debug */,
@@ -348,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5A81CBF29E9C9F2005CFC6D /* Build configuration list for PBXNativeTarget "Slap_Chat_iOS" */ = {
+		E5A81CBF29E9C9F2005CFC6D /* Build configuration list for PBXNativeTarget "Slap Chat iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5A81CC029E9C9F2005CFC6D /* Debug */,
@@ -358,6 +484,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E57E80EA29EE01CF00602FCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		E57E80F329EE1EC900602FCC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E57E80EB29EE01CF00602FCC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E57E80EA29EE01CF00602FCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E57E80ED29EE01CF00602FCC /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E57E80EA29EE01CF00602FCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E57E80EF29EE01CF00602FCC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E57E80EA29EE01CF00602FCC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E57E80F429EE1EC900602FCC /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E57E80F329EE1EC900602FCC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E5A81CA329E9C9F1005CFC6D /* Project object */;
 }
