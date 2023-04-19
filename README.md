@@ -1,4 +1,4 @@
-# Slap_Chat_iOS
+# Slap Chat iOS
 
 Welcome to Slap Chat! You are about to embark upon a messaging journey like no other. 
 With this unique messaging app, you will be able to message your closest humans with the upmost authority. Upon sending a message the recipient will recieve a slap sound, that gets their attention.
